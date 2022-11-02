@@ -17,7 +17,8 @@ namespace GIIT
             int y = int.Parse(Console.ReadLine());
             stepen(x, y);
             Console.WriteLine("Результат : " + stepen(x, y));
-
+            int o = 0;
+            string str = "";
         }
         public static int stepen(int x, int y)
         {
